@@ -6,7 +6,7 @@ const mostrarReloj = () => {
     document.getElementById('hora').innerHTML = `${hr}: ${min}: ${seg}`;
 
     const meses = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic']
-    const dias = ['Dom', 'Lun', 'Mar', 'Mie', 'Jue', 'VIENES', 'Sab']
+    const dias = ['Dom', 'Lun', 'Mar', 'Mie', 'Jue', 'VIERNES', 'Sab']
     let diaSemana = dias[fecha.getDay()];
     let dia = fecha.getDate();
     let mes = meses [fecha.getMonth()];
